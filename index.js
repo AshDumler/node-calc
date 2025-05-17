@@ -26,12 +26,12 @@ function addition() {
    console.log( 'X = ' + sum);
 }
 
-const userCase =  rs.question('What operation would you like to perform? / divide, * multiply, - subtract, a add?: ');
+const userCase =  rs.question('What operation would you like to perform? / divide, * multiply, - subtract, + add?: ');
 
 if (userCase == '/') { division(); } 
 else if (userCase == '*') { multiplication(); } 
 else if (userCase == '-') { subtraction(); } 
-else if (userCase == 'a') { addition(); } 
+else if (userCase == '+') { addition(); } 
 else {
    console.log('That is not a valid operation');
    userCase;
